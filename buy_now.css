@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+
+
+.logo img {
+   width: 80px;
+}
+
+header .header_top  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.084);
+    padding:5px 5%;
+    margin-bottom: 50px;
+    list-style: none;
+
+}
+
+.header_top nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header_top nav a {
+    color: black;
+    font-size: 16px;
+}
+
+
+.header_top .guide {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    list-style: none;
+   
+}
+
+.header_top li a  {
+    color: black;
+}
+
+
+
+.header_top .sign {
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+.header_content {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+
+section {
+    padding: 2% 5%;
+}
+
+/* Section 1 */
+.commande{
+    display: flex;
+    gap: 15%;
+}
+
+.age_1 span{
+    color: orange;
+}
+
+.age_2 span{
+    color: orange;
+}
+
+.age_3 span{
+    color: orange;
+}
+
+
+
+.age_1{
+    display: flex;
+    gap: 60%;
+    padding-bottom: 8%;
+    margin-top: 5%;
+}
+
+.age_1 { 
+    padding: 2%;
+    margin-bottom: 10%;
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border: 2px solid #ddd;
+    width: 110%;
+}
+
+.age_2 { 
+    padding: 2%;
+    margin-bottom: 10%;
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border: 2px solid #ddd;
+    width: 110%;
+}
+
+.age_3 { 
+    padding: 2%;
+    margin-bottom: 10%;
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border: 2px solid #ddd;
+    width: 110%;
+}
+
+.incré_1{
+    display: flex;
+    gap: 35%;
+    align-items: center;
+   
+    
+}
+
+
+.age_2{
+    display: flex;
+    gap: 40%;
+    padding-bottom: 8%;
+}
+
+
+
+.incré_2{
+    display: flex;
+    gap: 35%;
+    padding-top: 7%;
+}
+
+
+.age_3{
+    display: flex;
+    gap: 38%;
+    padding-bottom: 8%;
+}
+
+.incré_3{
+    display: flex;
+    gap: 35%;
+    padding-top: 7%;
+}
+
+
+
+
+.commande_right{
+    padding: 2%;
+    height: 10%;
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border: 2px solid #ddd;
+   
+
+}
+
+.commande_right h5{
+    padding-bottom: 5%;
+}
+
+.commande_right .val{
+    padding-top: 10%;
+}
+
+.commande_right button{
+    background-color: rgb(230, 129, 15);
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ticket ul li{
+    font-size: 12px;
+    margin-left: 8%;
+}
+
+.age_2 ul li{
+    font-size: 12px;
+    margin-left: 15%;
+}
+
+.age_3 ul li{
+    font-size: 12px;
+    margin-left: 20%;
+}
+
+
+
+.img_txt{
+    display: flex;
+    gap: 5%;
+}
+
+.val_1{
+    display: flex;
+    gap: 40%;
+    padding-bottom: 5%;
+}
+
+.val_2{
+    display: flex;
+    gap: 55%;
+    padding-bottom: 5%;
+}
+
+.val_3{
+    display: flex;
+    gap: 58%;
+    padding-bottom: 5%;
+}
+
+.price{
+    display: flex;
+    gap: 55%;
+   padding-bottom: 2px;
+}
+
+.price span{
+    color: orange;
+}

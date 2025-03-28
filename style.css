@@ -1,0 +1,832 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    list-style: none;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: url('./img/image1.png');
+    background-size: cover;
+    background-position: center;  
+}
+
+ 
+.logo img {
+   width: 80px;
+}
+
+
+header .header_top  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background-color: rgba(255, 255, 255, 0.26);
+    padding:5px 5%;
+    margin-bottom: 50px;
+
+}
+
+.burguer {
+    position: absolute;
+    /* top: 40%; */
+    right: 2%;
+    width: 30px;
+    display: none;
+}
+
+.header_top nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header_top nav a {
+    color: rgba(255, 255, 255, 0.979);
+    font-size: 20px;
+}
+
+
+.header_top .guide {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+   
+}
+
+.header_top li a  {
+    color: white;
+}
+
+
+.header_top .sign {
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+.header_content {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+
+.header_content h1{
+    font-size: 60px;
+}
+
+.hero h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header_nav{
+    display: flex;
+    background-color: white;
+}
+
+.header_nav li a{
+    display: flex;
+}
+
+
+.section_pack{
+    justify-content: center;
+}
+
+.icon{
+    display: flex;  
+    justify-content: space-around; 
+    gap: 25%;
+    padding-bottom: 2%;
+
+}
+
+
+.bloc button:hover{
+    background-color: #ee7a0e;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.icon_0 {
+    display: flex;  
+    justify-content: space-around; 
+    gap: 15%;
+    padding-bottom: 2%;
+}
+
+.icon_0 h4{
+    margin-right: 30%;
+}
+
+
+
+ /* .icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FFA500; /* Couleur orange */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; */
+/* } */ */
+
+
+
+/* .bloc{
+    margin-left: 55%;
+} */
+
+
+/* .section_pack h3 {
+  
+    margin-bottom: 30px;
+    
+    font-size: 150%;
+
+} */
+
+
+
+.pack-1 img{
+    width: 250px;
+}
+
+.pack-1 img{
+    width: 250px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver le ratio */
+    display: block; /* Pour éviter les espaces en dessous de l'image */
+    margin: 20px auto; /* Centrer l'image */
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2); /* Effet de box-shadow */
+    border-radius: 10px; /* Coins arrondis (optionnel) */
+    transition: transform 0.3s; /* Animation pour l'effet de hover */  
+}
+
+ 
+.pack-1 p{
+    font-size: 11px;
+}
+.pack-1 h6{
+    padding-top: 2%;
+}
+
+.main-pack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+.pack-2 img{
+    width: 250px;
+    width: 250px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver le ratio */
+    display: block; /* Pour éviter les espaces en dessous de l'image */
+    margin: 20px auto; /* Centrer l'image */
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2); /* Effet de box-shadow */
+    border-radius: 10px; /* Coins arrondis (optionnel) */
+    transition: transform 0.3s; /* Animation pour l'effet de hover */  
+}
+
+.pack-3 img{
+    width: 250px;
+    width: 250px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver le ratio */
+    display: block; /* Pour éviter les espaces en dessous de l'image */
+    margin: 20px auto; /* Centrer l'image */
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2); /* Effet de box-shadow */
+    border-radius: 10px; /* Coins arrondis (optionnel) */
+    transition: transform 0.3s; /* Animation pour l'effet de hover */  
+}
+
+.pack-2 p{
+    font-size: 11px;
+}
+
+.pack-3 img{
+   background-color: white;
+   border-radius: 5%;
+}
+
+.pack-3 p{
+    font-size: 11px;
+}
+
+.pack-4 img{
+    width: 250px;
+    width: 250px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour conserver le ratio */
+    display: block; /* Pour éviter les espaces en dessous de l'image */
+    margin: 20px auto; /* Centrer l'image */
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2); /* Effet de box-shadow */
+    border-radius: 10px; /* Coins arrondis (optionnel) */
+    transition: transform 0.3s; /* Animation pour l'effet de hover */  
+}
+
+.pack-4 p{
+    font-size: 11px;
+}
+
+
+.test {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.test-1 h6{
+    padding-top: 10px;
+}
+
+
+.main-pack p span  {
+    font-weight: bold;
+    color: rgb(207, 137, 6);
+    font-size: 13px;
+}
+.main-pack p svg {
+     color: rgb(180, 102, 0);
+     fill: rgb(194, 117, 2);
+     font-size: 15px;
+}
+
+
+.calendrier {
+    display: flex;
+    gap: 30%;
+    align-items: center;
+}
+
+.calendrier p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: orange;
+}
+
+
+/* Responsive section pack */
+
+/* Mobile */
+@media screen and{
+    
+}
+
+/* Responsive section pack */
+
+section {
+    padding: 3% 2%;
+}
+
+.main-paquet{
+    display: flex;
+    gap: 20%;
+}
+
+.paquet-1 img{
+    width: 70%;
+    margin-left: 40%;
+    /* box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2); /* Effet de box-shadow */
+    /* border-radius: 10px; Coins arrondis (optionnel) */ 
+}
+
+
+
+
+.paquet-2 p{
+    font-size: 12px;
+}
+.paquet-2{
+    margin-top: 6%;
+}
+.paquet-2 h2{
+    font-size: 15px;
+}
+
+.paquet-nom {
+    display: flex;
+    gap: 30px;
+    color: rgb(230, 152, 9);
+    margin-right: 95%;
+}
+
+.paquet-petit{
+    display: flex;
+    gap: 25px; 
+    
+} 
+
+
+
+/* Section 4 */
+.section_asside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px
+    
+}
+
+.section_asside img{
+    width: 100% ;
+}
+
+
+.section_asside_box_1{
+    display: flex;
+    padding: 10px; /* Padding for the content box */
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    /* margin-right: 5px; Space between text and image */
+    /* position: relative; Keep content relative for positioning */
+    top:-10%;
+    width: 20%;
+    height: 10%;
+}
+
+.section_asside_box_2{
+    display: flex;
+    padding: 10px; /* Padding for the content box */
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    /* margin-right: 5px; Space between text and image */
+    /* position: relative; Keep content relative for positioning */
+    top:-10%;
+    width: 20%;
+    height: 10%;
+}
+
+.section_asside_box_3{
+    display: flex;
+    padding: 10px; /* Padding for the content box */
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    /* margin-right: 5px; Space between text and image */
+    /* position: relative; Keep content relative for positioning */
+    top:-10%;
+    width: 20%;
+    height: 10%;
+}
+
+.section_asside_box_4{
+    display: flex;
+    padding: 10px; /* Padding for the content box */
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    /* margin-right: 5px; Space between text and image */
+    /* position: relative; Keep content relative for positioning */
+    top:-10%;
+    width: 20%;
+    height: 10%;
+}
+
+/* .section_asside img{
+    width: 250px;
+    width: 250px;
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    transition: transform 0.3s;  
+} */
+
+.section_asside p{  
+    font-size: 12px;   
+}
+
+.section_asside h6{
+    margin-top: 15px;
+}
+
+
+
+
+/* Section 5 */
+
+.section_corps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px
+}
+
+.viewBox_1{
+    display: flex;
+    padding: 10px; /* Padding for the content box */
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    /* margin-right: 5px; Space between text and image */
+    /* position: relative; Keep content relative for positioning */
+    top:-10%;
+    width: 20%;
+    height: 10%;
+}
+
+.viewBox_2{
+    display: flex;
+    padding: 10px; /* Padding for the content box */
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    /* margin-right: 5px; Space between text and image */
+    /* position: relative; Keep content relative for positioning */
+    top:-10%;
+    width: 20%;
+    height: 10%;
+}
+
+
+.viewBox_3{
+    display: flex;
+    padding: 10px; /* Padding for the content box */
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    /* margin-right: 5px; Space between text and image */
+    /* position: relative; Keep content relative for positioning */
+    top:-10%;
+    width: 20%;
+    height: 10%;
+}
+
+.viewBox_4{
+    display: flex;
+    padding: 10px; /* Padding for the content box */
+    background-color: white; /* White background for the text */
+    border-radius: 10px; /* Rounded corners for the text box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    /* margin-right: 5px; Space between text and image */
+    /* position: relative; Keep content relative for positioning */
+    top:-10%;
+    width: 20%;
+    height: 10%;
+}
+
+/* .section_corps img{
+    width: 250px;
+    width: 250px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    transition: transform 0.3s;   
+} */
+
+
+
+.section_corps .dolat_1 {
+    margin-bottom: 10%;
+}
+
+.section_corps .dolat_2 {
+    margin-bottom: 10%;
+}
+
+.section_corps .dolat_3 {
+    margin-bottom: 10%;
+}
+
+.section_corps .dolat_4 {
+    margin-bottom: 10%;
+}
+
+.section_corps h6{
+    padding-top: 10px;
+}
+
+.section_corps img{
+    width: 250px; 
+    
+}
+
+.section_corps p{
+    font-size: 13px;
+}
+
+
+.section_corps p strong{
+    color: orange;
+    font-size: 24px;
+    
+}
+
+/* .corp_text svg {
+    margin-top: 10%;
+}
+
+.corp_text p{
+    font-size: 12px;
+} */
+
+
+.section_corps button{
+    border: solid 1px;
+    border-color: orange;
+    color: orange;
+    width: 70%;
+    border-radius: 20px;
+}
+
+/* Section 6 */
+.container-fluid{
+    background-color: rgb(250, 193, 152);
+    height: 50vh;
+    height: 430px;
+    width: 100%;
+}
+
+.section_formule{
+    /* background-color: #fac198; */ 
+    position: relative;
+    margin-right: 200px; 
+}
+
+
+
+.form{
+   position: absolute;
+   margin-left: 10%;
+   top: 25%;
+   background-color: #ebd4b3;  
+   width: 40%;
+   height: 100%;
+   height: 355px;
+   border-radius: 2%;
+}
+
+.section_formule img{
+    float: right;
+    top: 20px;
+    width: 45%;
+    margin-right: 5%;
+}
+
+
+
+.container-fluid h5{
+    margin-left: 20%;
+    padding-top: -5%;
+}
+
+.section_formule button{
+    background-color: orange;
+    margin-left: 35%;
+    width: 25%;
+    border-radius: 12px;
+}
+
+
+
+/* Section 7 */
+.histo {
+    display: flex;
+    gap: 4%;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.histo .perso_1{
+
+        background-color: #fff;
+        padding: 10px;
+        width: 40%; /* Pour que chaque avis prenne 45% de la largeur */
+        max-width: 500px; /* Largeur maximale */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        position: relative; /* Pour positionner les icônes dans les coins */
+        
+}
+
+.histo .perso_2{
+
+    background-color: #fff;
+    padding: 10px;
+    width: 40%; /* Pour que chaque avis prenne 45% de la largeur */
+    max-width: 500px; /* Largeur maximale */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative; /* Pour positionner les icônes dans les coins */
+    
+}
+
+.histo .perso_1 p{
+    padding-top: 5%;
+    font-size: 70%;
+}
+
+.histo .perso_2 p{
+    padding-top: 5%;
+    font-size: 70%;
+}
+
+h4{
+    margin-left: 14%;
+}
+
+/* Section footer */
+.footer{
+    background-color: #000;
+}
+
+.footer img{
+    margin-left: 15%;
+    padding-top: 3%;
+    width: 8%;
+}
+
+.fin p{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 10px;
+    
+}
+.section_footer{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 3%;
+}
+
+.section_footer p{
+    font-size: 80%;
+    color: white;
+}
+
+.section_footer h5{
+    color: white;
+}
+
+.Social_Media p{
+    display: inline;
+    padding: 5px;
+     
+} 
+
+.footer hr{
+    border: solid 1px rgba(255, 245, 245, 0.171);   
+    width: 70%;
+    margin-left: 15.5%;
+}
+
+
+/* Section 3 */
+.Section_guide{
+    background-color: rgb(250, 193, 152);
+    height: 50vh;
+}
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 2%;
+    width: 100%; 
+}
+.article_text{
+    background-color: rgb(235, 210, 173) ;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    font-size: 11px;
+    border-radius: 6%; 
+    margin-left: 10%;  
+}
+
+.article_text h3{
+    font-size: 20px;
+}
+
+.article_text button{
+    cursor: pointer;
+    border-radius: 20px;
+    width: 50%;
+    
+}
+
+.guide_img img{  
+    width: 100%;
+    height: 50%;
+     
+}
+.guide_img {
+    
+    position: absolute;
+    right: 10%;
+    top: -30%;
+    width: 250px;
+}
+
+
+
+
+
+
+
+/* @media */
+
+
+
+ /* @media (max-width:800px) {
+
+
+
+    
+.guide_img img{
+     
+    width: 100%;
+    height: 100%;
+     
+}
+.guide_img {
+    
+    position: absolute;
+    right: 10%;
+    top: -5%;
+    width: 170px;
+}
+
+
+
+ }
+
+ /* MOBILE  */
+
+
+/* 
+
+ @media (max-width:560px) {
+
+
+
+ 
+ .guide_img {
+     
+     position: absolute;
+     right: 10%;
+     top: -5%;
+     width: 170px;
+ }
+
+ } */ 
+
+
+ /* Responsive */
+
+@media screen and (max-width:850px){
+    header .header_top  {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        height: 12vh;
+        background-color: rgba(255, 255, 255, 0.26);
+        padding:5px 5%;
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+
+
+    
+    header .header_top {
+        display: none;
+        
+    }
+
+    .burguer{
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
